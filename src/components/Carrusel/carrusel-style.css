@@ -1,0 +1,23 @@
+.carrusel{
+    width: 100%;
+    height: 330px;
+}
+.carrusel img{
+    height: 330px;
+    object-fit: cover;
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+/* media query for mobile devices */
+@media (max-width: 767px) {
+
+    .carrusel {
+        height: 126px;
+        margin: 5px 0;
+    }
+    .carrusel img {
+        height: 126px;
+    }
+}

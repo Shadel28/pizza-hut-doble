@@ -1,0 +1,33 @@
+:root {
+    --verde: #87C734;
+    --rojo: #EE1C23;
+    --negro: #221E1F;
+}
+
+
+.form{
+    width: 80%;
+    position: relative;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group input, 
+.form-group textarea{
+    color: var(--negro);
+    border-color: var(--rojo);
+}
+
+.form button{
+    padding: .4rem 3rem;
+    outline: none;
+    border: 1px solid var(--rojo);
+    border-radius: 3px;
+    color: var(--negro);
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}

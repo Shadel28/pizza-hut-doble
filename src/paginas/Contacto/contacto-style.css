@@ -1,0 +1,34 @@
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 13rem;
+    padding: 2rem 0;
+}
+
+.contacto h1{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 1250px) {
+    .contacto{
+        margin: 0 3%;
+    }
+}
+
+/* media query for mobile devices */
+@media (max-width: 767px) {
+    .contacto h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .form button {
+        left: 25%;
+    }
+}
